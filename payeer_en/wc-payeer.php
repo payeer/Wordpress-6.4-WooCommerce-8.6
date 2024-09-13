@@ -180,7 +180,7 @@ function woocommerce_payeer()
         'm_curr' => $m_curr,
         'm_desc' => $m_desc,
         'm_sign' => $sign,
-        'lang' => 'ru',
+        'lang' => 'en',
       ];
       
       $m_url .= http_build_query($params, null, '&');
